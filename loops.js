@@ -20,7 +20,11 @@ function doWhileLoop(array) {
     array.pop();
     return array
   } while 
+<<<<<<< HEAD
   (maybeTrue() && array.length > 1)
+=======
+  (maybeTrue() && array.length > 0)
+>>>>>>> e3eff57da7de41601630201a0691c9485858cba2
 }
   
 
